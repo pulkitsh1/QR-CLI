@@ -35,9 +35,9 @@ pip install .
 Once the tool is installed, you can generate QR codes directly from the command line. Use the following syntax:
 
 ```bash
-qr -u "<data>" -o <output_file>
+qr -u "< data >" -o <output_file>
 ```
 
-<data> : You can replace '<data>' with an actual url which you want to embed in the QR Code.
+< data > : You can replace '< data >' with an actual url which you want to embed in the QR Code.
 
 <output_file> : You can replace '<output_file>' with the name you want for the QR Code Image.

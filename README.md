@@ -20,7 +20,7 @@ A simple Python-based command-line interface (CLI) tool for generating QR codes 
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/qr-cli.git
+git clone https://github.com/pulkitsh1/QR-CLI.git
 cd QR-CLI
 ```
 
@@ -37,5 +37,7 @@ Once the tool is installed, you can generate QR codes directly from the command 
 ```bash
 qr -u "<data>" -o <output_file>
 ```
+
 <data> : You can replace '<data>' with an actual url which you want to embed in the QR Code.
+
 <output_file> : You can replace '<output_file>' with the name you want for the QR Code Image.

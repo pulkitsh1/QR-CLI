@@ -21,4 +21,21 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/yourusername/qr-cli.git
-cd qr-cli
+cd QR-CLI
+```
+
+### Installing required Libraries
+Use pip to install the package globally or locally. Run the following command from the root of the project (where setup.py is located):
+
+```bash
+pip install .
+```
+
+### Usage
+Once the tool is installed, you can generate QR codes directly from the command line. Use the following syntax:
+
+```bash
+qr -u "<data>" -o <output_file>
+```
+<data> : You can replace '<data>' with an actual url which you want to embed in the QR Code.
+<output_file> : You can replace '<output_file>' with the name you want for the QR Code Image.

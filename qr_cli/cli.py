@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import qrcode, argparse
 
 def generate_qr(data, file_name):
